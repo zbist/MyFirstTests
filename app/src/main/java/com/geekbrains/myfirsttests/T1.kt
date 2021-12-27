@@ -6,6 +6,10 @@ class T1 {
         return user.age >= 18
     }
 
+    fun isUsersNamesSame(user1: User, user2: User): Boolean {
+        return user1.name == user2.name
+    }
+
 }
 
 data class User(
